@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class DirectLogRecv1 {
 
-    private static final String EXCHANGE_NAME = "direct_logs";
+    private static final String EXCHANGE_NAME = "direct_logs2";
     private static final List<String> routingKeys = Arrays.asList("info", "debug");
 
     public static void main(String[] argv) throws Exception {
@@ -27,7 +27,7 @@ public class DirectLogRecv1 {
         Connection connection = factory.newConnection();
         Channel channel = connection.createChannel();
 
-        channel.exchangeDeclare(EXCHANGE_NAME, BuiltinExchangeType.DIRECT);
+        channel.exchangeDeclare(EXCHANGE_NAME, BuiltinExchangeType.DIRECT,true);
         String queueName = channel.queueDeclare().getQueue();
 
         for (String severity : routingKeys) {

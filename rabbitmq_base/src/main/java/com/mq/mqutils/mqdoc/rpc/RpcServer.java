@@ -1,10 +1,10 @@
-package com.mq.mqutils.tutorial.rpc;
+package com.mq.mqutils.mqdoc.rpc;
 
 import com.rabbitmq.client.*;
 
 /**
  * @Title: RpcServer
- * @Package: com.mq.mqutils.tutorial.rpc
+ * @Package: com.mq.mqutils.mqdoc.rpc
  * @Description: TODO（添加描述）
  * @Author: tangquanbin
  * @Data: 2019/4/22 8:46

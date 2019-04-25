@@ -1,5 +1,5 @@
 # RabbitMQUtils
 
 ###package description
-####com.mq.mqutils.tutorial
+####com.mq.mqutils.mqdoc
 rabbitmq official website tutorial

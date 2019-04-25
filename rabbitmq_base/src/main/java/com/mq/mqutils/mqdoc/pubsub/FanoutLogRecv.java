@@ -1,10 +1,10 @@
-package com.mq.mqutils.tutorial.pubsub;
+package com.mq.mqutils.mqdoc.pubsub;
 
 import com.rabbitmq.client.*;
 
 /**
  * @Title: FanoutLogRecv
- * @Package: com.mq.mqutils.tutorial.pubsub
+ * @Package: com.mq.mqutils.mqdoc.pubsub
  * @Description: 广播接收消息
  * @Author: tangquanbin
  * @Data: 2019/4/12 17:52

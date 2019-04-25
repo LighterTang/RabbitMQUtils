@@ -1,4 +1,4 @@
-package com.mq.mqutils.tutorial.pubsub;
+package com.mq.mqutils.mqdoc.pubsub;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
@@ -7,7 +7,7 @@ import com.rabbitmq.client.DeliverCallback;
 
 /**
  * @Title: TopicLogRecv1
- * @Package: com.mq.mqutils.tutorial.pubsub
+ * @Package: com.mq.mqutils.mqdoc.pubsub
  * @Description: TODO（添加描述）
  * @Author: tangquanbin
  * @Data: 2019/4/21 0021 22:51

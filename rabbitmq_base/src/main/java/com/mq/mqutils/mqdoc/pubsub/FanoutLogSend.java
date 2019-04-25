@@ -1,4 +1,4 @@
-package com.mq.mqutils.tutorial.pubsub;
+package com.mq.mqutils.mqdoc.pubsub;
 
 import com.rabbitmq.client.BuiltinExchangeType;
 import com.rabbitmq.client.Channel;
@@ -7,7 +7,7 @@ import com.rabbitmq.client.ConnectionFactory;
 
 /**
  * @Title: FanoutLogSend
- * @Package: com.mq.mqutils.tutorial.pubsub
+ * @Package: com.mq.mqutils.mqdoc.pubsub
  * @Description: 广播发送消息
  * @Author: tangquanbin
  * @Data: 2019/4/12 17:50

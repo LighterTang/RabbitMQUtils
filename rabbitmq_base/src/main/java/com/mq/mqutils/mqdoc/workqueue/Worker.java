@@ -1,4 +1,4 @@
-package com.mq.mqutils.tutorial.workqueue;
+package com.mq.mqutils.mqdoc.workqueue;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
@@ -7,7 +7,7 @@ import com.rabbitmq.client.DeliverCallback;
 
 /**
  * @Title: Worker
- * @Package: com.mq.mqutils.tutorial.workqueue
+ * @Package: com.mq.mqutils.mqdoc.workqueue
  * @Description: TODO（添加描述）
  * @Author: tangquanbin
  * @Data: 2019/4/12 13:55

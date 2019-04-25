@@ -1,4 +1,4 @@
-package com.mq.mqutils.tutorial.pubsub;
+package com.mq.mqutils.mqdoc.pubsub;
 
 import com.rabbitmq.client.*;
 
@@ -7,16 +7,16 @@ import java.util.List;
 
 /**
  * @Title: DirectLogRecv1
- * @Package: com.mq.mqutils.tutorial.pubsub
+ * @Package: com.mq.mqutils.mqdoc.pubsub
  * @Description: TODO（添加描述）
  * @Author: tangquanbin
  * @Data: 2019/4/19 13:40
  * @Version: V1.0
  */
-public class DirectLogRecv1 {
+public class DirectLogRecv2 {
 
-    private static final String EXCHANGE_NAME = "direct_logs2";
-    private static final List<String> routingKeys = Arrays.asList("info", "debug");
+    private static final String EXCHANGE_NAME = "direct_logs";
+    private static final List<String> routingKeys = Arrays.asList("error");
 
     public static void main(String[] argv) throws Exception {
         ConnectionFactory factory = new ConnectionFactory();
@@ -27,7 +27,7 @@ public class DirectLogRecv1 {
         Connection connection = factory.newConnection();
         Channel channel = connection.createChannel();
 
-        channel.exchangeDeclare(EXCHANGE_NAME, BuiltinExchangeType.DIRECT,true);
+        channel.exchangeDeclare(EXCHANGE_NAME, BuiltinExchangeType.DIRECT);
         String queueName = channel.queueDeclare().getQueue();
 
         for (String severity : routingKeys) {

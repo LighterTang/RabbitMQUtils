@@ -8,7 +8,7 @@ import java.io.IOException;
  * @Title: Recv
  * @Package: com.mq.mqutils.mqdoc
  * @Description: 接收指定队列的消息
- * @Author: tangquanbin
+ * @Author: monkjavaer
  * @Data: 2019/4/12 13:23
  * @Version: V1.0
  */

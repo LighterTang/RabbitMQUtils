@@ -6,7 +6,7 @@ import com.rabbitmq.client.*;
  * @Title: RpcServer
  * @Package: com.mq.mqutils.mqdoc.rpc
  * @Description: TODO（添加描述）
- * @Author: tangquanbin
+ * @Author: monkjavaer
  * @Data: 2019/4/22 8:46
  * @Version: V1.0
  */

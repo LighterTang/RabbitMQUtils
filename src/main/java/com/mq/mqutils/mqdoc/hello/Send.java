@@ -11,7 +11,7 @@ import java.util.concurrent.TimeoutException;
  * @Title: Send
  * @Package: com.mq.mqutils.mqdoc
  * @Description: 发送消息到指定队列
- * @Author: tangquanbin
+ * @Author: monkjavaer
  * @Data: 2019/4/12 13:12
  * @Version: V1.0
  */

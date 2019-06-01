@@ -12,7 +12,7 @@ import java.util.Random;
  * @Title: TopicLogSend
  * @Package: com.mq.mqutils.mqdoc.pubsub
  * @Description: TODO（添加描述）
- * @Author: tangquanbin
+ * @Author: monkjavaer
  * @Data: 2019/4/21 0021 22:49
  * @Version: V1.0
  */

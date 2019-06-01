@@ -9,7 +9,7 @@ import java.util.List;
  * @Title: DirectLogRecv1
  * @Package: com.mq.mqutils.mqdoc.pubsub
  * @Description: TODO（添加描述）
- * @Author: tangquanbin
+ * @Author: monkjavaer
  * @Data: 2019/4/19 13:40
  * @Version: V1.0
  */

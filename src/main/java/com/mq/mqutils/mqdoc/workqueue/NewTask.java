@@ -9,7 +9,7 @@ import com.rabbitmq.client.MessageProperties;
  * @Title: NewTask
  * @Package: com.mq.mqutils.mqdoc.workqueue
  * @Description: TODO（添加描述）
- * @Author: tangquanbin
+ * @Author: monkjavaer
  * @Data: 2019/4/12 13:52
  * @Version: V1.0
  */

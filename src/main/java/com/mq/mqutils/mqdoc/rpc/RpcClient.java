@@ -15,7 +15,7 @@ import java.util.concurrent.TimeoutException;
  * @Title: RpcClient
  * @Package: com.mq.mqutils.mqdoc.rpc
  * @Description: TODO（添加描述）
- * @Author: tangquanbin
+ * @Author: monkjavaer
  * @Data: 2019/4/22 8:46
  * @Version: V1.0
  */

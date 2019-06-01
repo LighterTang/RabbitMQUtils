@@ -8,7 +8,7 @@ import java.io.IOException;
  * @Title: DirectLogSend
  * @Package: com.mq.mqutils.mqdoc.pubsub
  * @Description: 直接路由发送
- * @Author: tangquanbin
+ * @Author: monkjavaer
  * @Data: 2019/4/19 13:32
  * @Version: V1.0
  */

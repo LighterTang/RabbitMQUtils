@@ -9,7 +9,7 @@ import com.rabbitmq.client.ConnectionFactory;
  * @Title: FanoutLogSend
  * @Package: com.mq.mqutils.mqdoc.pubsub
  * @Description: 广播发送消息
- * @Author: tangquanbin
+ * @Author: monkjavaer
  * @Data: 2019/4/12 17:50
  * @Version: V1.0
  */

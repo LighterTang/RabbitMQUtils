@@ -9,7 +9,7 @@ import com.rabbitmq.client.DeliverCallback;
  * @Title: Worker
  * @Package: com.mq.mqutils.mqdoc.workqueue
  * @Description: TODO（添加描述）
- * @Author: tangquanbin
+ * @Author: monkjavaer
  * @Data: 2019/4/12 13:55
  * @Version: V1.0
  */
